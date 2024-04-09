@@ -9,5 +9,5 @@ package dao;
  * @author prathmesh
  */
 public class PharmacyUtils {
-    public static String billPath = "C:\\Users\\prathmesh\\OneDrive\\Documents\\NetBeansProjects\\Pharmacy management system\\bills";
+    public static String billPath = "C:\\Users\\prathmesh\\OneDrive\\Documents\\NetBeansProjects\\Pharmacy management system\\bills\\";
 }
