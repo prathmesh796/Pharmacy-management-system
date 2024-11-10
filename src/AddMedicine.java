@@ -135,9 +135,19 @@ public class AddMedicine extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Name field is required");
         }
         
+        else if(name.matches(numberpattern))
+        {
+            JOptionPane.showMessageDialog(null, "Name field is invalid");
+        }
+        
         else if(companyName.equals(""))
         {
             JOptionPane.showMessageDialog(null, "Company field is required");
+        }
+        
+        else if(companyName.matches(numberpattern))
+        {
+            JOptionPane.showMessageDialog(null, "Company field is invalid");
         }
         
         else if(quantity.equals(""))
